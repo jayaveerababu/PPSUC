@@ -1,13 +1,9 @@
-#include <stdio.h>
-
+#include<stdio.h>
+#include<math.h>
 int main()
-{
-    int l,b;
-    float area;
-    printf("Enter l,b values");
-    scanf("%d%d",&l,&b);
-    area=l*b;
-    printf("Area of Rectangle:%f",area);
-
-return 0;
+{ //area of rectangle
+  float len,brea,area;
+  printf("enter two values:");
+  scanf("%f%f",&len,&brea);
+  printf("area is:%.2f",len*brea);
 }
